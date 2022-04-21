@@ -1,0 +1,6 @@
+export const REACT_APP_COOKIE_DOMAIN = process.env.REACT_APP_COOKIE_DOMAIN || '';
+export const REACT_APP_BASE_API = process.env.REACT_APP_BASE_API || '';
+export const REACT_APP_BASE_SOCKET = process.env.REACT_APP_BASE_SOCKET || '';
+export const REACT_APP_API_VERSION = process.env.REACT_APP_API_VERSION || '';
+
+export default { REACT_APP_COOKIE_DOMAIN, REACT_APP_BASE_API, REACT_APP_BASE_SOCKET, REACT_APP_API_VERSION };
